@@ -129,7 +129,7 @@ while running:
     screen.blit(text_surface, (10, 10))
 
     # --- Condition de victoire ---
-    if nb_ball == 3 and (hero_h, hero_w) == (0, 19):
+    if nb_ball == 3 and (hero_h, hero_w) == (0, 18):
         win_text = font.render("Vous avez gagné !", True, (0, 255, 0))
         screen.blit(win_text, (SCREEN_WIDTH // 2 - 100, SCREEN_HEIGHT // 2 - 20))
         pygame.display.flip()
